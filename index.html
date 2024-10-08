@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kridha Education & Samaj Vikas Samiti</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background-color: #35424a;
+            color: #ffffff;
+            padding: 1rem 0;
+            border-bottom: #e8491d 3px solid;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 1rem;
+        }
+        header ul {
+            padding: 0;
+        }
+        header li {
+            display: inline;
+            padding: 0 10px;
+        }
+        header .highlight, header .current a {
+            color: #e8491d;
+            font-weight: bold;
+        }
+        header a:hover {
+            color: #cccccc;
+            font-weight: bold;
+        }
+        #showcase {
+            min-height: 300px;
+            background-color: #1e90ff;
+            text-align: center;
+            color: #ffffff;
+            padding: 3rem 0;
+        }
+        #showcase h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        #showcase p {
+            font-size: 1.2rem;
+        }
+        #main {
+            padding: 2rem 0;
+            background: #ffffff;
+        }
+        footer {
+            padding: 1rem;
+            margin-top: 1rem;
+            color: #ffffff;
+            background-color: #e8491d;
+            text-align: center;
+        }
+        
+        /* Mobile Styles */
+        @media(max-width: 768px) {
+            header #branding,
+            header nav,
+            header nav li {
+                float: none;
+                text-align: center;
+                display: block;
+                padding: 0.5rem 0;
+            }
+            header {
+                padding: 1rem 0;
+            }
+            #showcase h1 {
+                font-size: 2rem;
+            }
+            #showcase p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Kridha</span> Education & Samaj Vikas Samiti</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="get-involved.html">Get Involved</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Empowering Communities Through Education</h1>
+            <p>Working towards social development and educational upliftment in India</p>
+        </div>
+    </section>
+
+    <section id="main">
+        <div class="container">
+            <h2>Welcome to Kridha Education & Samaj Vikas Samiti</h2>
+            <p>We are committed to improving education and fostering social development in our communities. Our initiatives focus on providing quality education, promoting social awareness, and empowering individuals to create positive change.</p>
+            <h3>Our Focus Areas:</h3>
+            <ul>
+                <li>Educational Programs</li>
+                <li>Community Development</li>
+                <li>Social Awareness Campaigns</li>
+                <li>Skill Development Workshops</li>
+            </ul>
+            <p>Explore our website to learn more about our work and how you can get involved in making a difference.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Kridha Education & Samaj Vikas Samiti, Copyright &copy; 2024</p>
+    </footer>
+</body>
+</html>
